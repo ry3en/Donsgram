@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'haml-rails'
 gem 'devise'
+gem 'bootstrap', '~> 4.1.3'
+gem 'jquery-rails'
+gem 'mini_racer'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
