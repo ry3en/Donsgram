@@ -1,20 +1,94 @@
-%h2 Sign up
-= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
-  = devise_error_messages!
-  %div
-    = f.label :email
-    %br/
-    = f.email_field :email, autofocus: true
-  %div
-    = f.label :password
-    - if @validatable
-      %i
-        (#{@minimum_password_length} characters minimum)
-    %br/
-    = f.password_field :password, autocomplete: "off"
-  %div
-    = f.label :password_confirmation
-    %br/
-    = f.password_field :password_confirmation, autocomplete: "off"
-  %div= f.submit "Sign up"
-= render "devise/shared/links"
+.py-5.text-center{:style => ""}
+  .container
+    .row
+      .col-lg-4.col-8.order-2.order-lg-1
+        %img.img-fluid.d-block{:src => "https://static.pingendo.com/img-placeholder-2.svg"}/
+      .col-lg-2.col-4.d-flex.flex-column.justify-content-between.order-3.order-lg-2
+        %img.img-fluid.d-block{:src => "https://static.pingendo.com/img-placeholder-1.svg"}/
+        %img.img-fluid.d-block{:src => "https://static.pingendo.com/img-placeholder-4.svg"}/
+      .px-md-5.p-3.d-flex.flex-column.justify-content-center.col-lg-6.order-1.order-lg-3{:style => ""}
+        %i.d-block.fa.fa-circle.fa-3x.mb-2.text-muted
+        %h1 Bienvenido a Donsgram
+        %p.lead
+          La red con la que podras encontrar a un donante mucho mas facil.
+          %br>
+          %a{:href => "#"}> Terminos y Condiciones
+          %br
+
+.py-5.text-center
+  .container
+    .row
+      .mx-auto.col-lg-6.col-10
+        %h1 Registra tus datos
+        %p.mb-3 Pronto podras...
+        = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+          = devise_error_messages!
+          %div
+            = f.label :email
+            %br/
+            = f.email_field :email, autofocus: true
+          %div
+            = f.label :password
+            - if @validatable
+              %i
+                (#{@minimum_password_length} characters minimum)
+            %br/
+            = f.password_field :password, autocomplete: "off"
+          %div
+            = f.label :password_confirmation
+            %br/
+            = f.password_field :password_confirmation, autocomplete: "off"
+          %div= f.submit "Sign up"
+        = render "devise/shared/links"
+
+
+
+
+-#             = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+-#   = devise_error_messages!
+-#   %div
+-#     = f.label :email
+-#     %br/
+-#     = f.email_field :email, autofocus: true
+-#   %div
+-#     = f.label :password
+-#     - if @validatable
+-#       %i
+-#         (#{@minimum_password_length} characters minimum)
+-#     %br/
+-#     = f.password_field :password, autocomplete: "off"
+-#   %div
+-#     = f.label :password_confirmation
+-#     %br/
+-#     = f.password_field :password_confirmation, autocomplete: "off"
+-#   %div= f.submit "Sign up"
+-# = render "devise/shared/links"
+
+
+
+-# %form.text-left
+-#   .form-group
+-#     %label{:for => "form16"} Escribe tu nombre:
+-#     %input#form16.form-control{:placeholder => "Johann W. Goethe", :type => "text"}/
+-#   .form-group
+-#     %label{:for => "form17"} Escribe tueedad:
+-#     %input#form17.form-control{:placeholder => "18+", :type => "text"}/
+-#   .form-group
+-#     %label{:for => "form18"}
+-#       Escribe tu email:
+-#       %br/
+-#     %input#form18.form-control{:placeholder => "j.goethe@werther.com", :type => "email"}/
+-#   .form-row
+-#     .form-group.col-md-6
+-#       %label{:for => "form19"} Crea una contraseña
+-#       %input#form19.form-control{:placeholder => "••••", :type => "password"}/
+-#     .form-group.col-md-6
+-#       %label{:for => "form20"} Confirma tu contraseña
+-#       %input#form20.form-control{:placeholder => "••••", :type => "password"}/
+-#   .form-group
+-#     .form-check
+-#       %input#form21.form-check-input{:type => "checkbox", :value => "on"}/
+-#       %label.form-check-label{:for => "form21"}
+-#         Estoy de acuerdo con los
+-#         %a{:href => "#"}> Terminos y Condiciones del servicio.
+-#   %button.btn.btn-primary{:type => "submit"} Crea mi cuenta

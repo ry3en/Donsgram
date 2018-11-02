@@ -3521,3 +3521,499 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 105ms (Views: 102.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-02 16:59:51 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.haml within layouts/application
+  Rendered main/unregistered.haml within layouts/application (14.3ms)
+  Rendered partials/_navbar.haml (7.0ms)
+  Rendered partials/_footer.haml (7.0ms)
+Completed 200 OK in 783ms (Views: 771.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-02 16:59:59 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.haml within layouts/application (41.7ms)
+  Rendered partials/_navbar.haml (8.9ms)
+  Rendered partials/_footer.haml (10.1ms)
+Completed 200 OK in 168ms (Views: 118.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:00:05 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (9.4ms)
+  Rendered partials/_navbar.haml (6.3ms)
+  Rendered partials/_footer.haml (7.9ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 17:03:07 -0600
+Processing by MainController#unregistered as HTML
+  Rendering main/unregistered.haml within layouts/application
+  Rendered main/unregistered.haml within layouts/application (8.6ms)
+  Rendered partials/_navbar.haml (10.4ms)
+  Rendered partials/_footer.haml (8.7ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:03:08 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (39.0ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 17 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    47:               %label.form-check-label{:for => "form21"}
+    48:                 Estoy de acuerdo con los
+    49:                 %a{:href => "#"}> Terminos y Condiciones
+    50:                  del servicio.
+    51:           %button.btn.btn-primary{:type => "submit"} Crea mi cuenta
+    52: 
+    53: 
+  
+app/views/devise/registrations/new.html.haml:50
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:03:30 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (25.9ms)
+  Rendered partials/_navbar.haml (6.8ms)
+  Rendered partials/_footer.haml (7.5ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:04:05 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.haml within layouts/application (27.8ms)
+  Rendered partials/_navbar.haml (6.9ms)
+  Rendered partials/_footer.haml (7.0ms)
+Completed 200 OK in 98ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:04:06 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (41.4ms)
+  Rendered partials/_navbar.haml (7.4ms)
+  Rendered partials/_footer.haml (7.5ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:04:09 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (39.7ms)
+  Rendered partials/_navbar.haml (7.4ms)
+  Rendered partials/_footer.haml (7.0ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:04:14 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (41.5ms)
+  Rendered partials/_navbar.haml (7.8ms)
+  Rendered partials/_footer.haml (8.0ms)
+Completed 200 OK in 124ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:04:43 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (24.9ms)
+  Rendered partials/_navbar.haml (7.7ms)
+  Rendered partials/_footer.haml (8.3ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:07:08 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (22.6ms)
+  Rendered partials/_navbar.haml (7.3ms)
+  Rendered partials/_footer.haml (14.2ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:13:59 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (23.6ms)
+  Rendered partials/_navbar.haml (12.3ms)
+  Rendered partials/_footer.haml (13.0ms)
+Completed 200 OK in 129ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:18:04 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    40:               %br/
+    41:               = f.password_field :password_confirmation, autocomplete: "off"
+    42:             .form-group= f.submit "Sign up"
+    43:               = render "devise/shared/links"
+    44:             .form-group
+    45:             .form-check
+    46:               %input#form21.form-check-input{:type => "checkbox", :value => "on"}/
+  
+app/views/devise/registrations/new.html.haml:43
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:18:31 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %div and nested within it.):
+    40:               %br/
+    41:               = f.password_field :password_confirmation, autocomplete: "off"
+    42:             %div= f.submit "Sign up"
+    43:               = render "devise/shared/links"
+    44:             .form-group
+    45:             .form-check
+    46:               %input#form21.form-check-input{:type => "checkbox", :value => "on"}/
+  
+app/views/devise/registrations/new.html.haml:43
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:18:46 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/g3r420/Github/Donsgram/app/views/devise/registrations/new.html.haml:51: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/devise/registrations/new.html.haml:51: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:19:14 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (21.7ms)
+  Rendered partials/_navbar.haml (6.4ms)
+  Rendered partials/_footer.haml (11.7ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=US4TuE%2BQiGj5f0rvP8y2gejZOjcR5oOO3TiTO7aZfLQXL7lVr3NYBpk%2Bm0rFJIJjnSfG%2BCjKSbGRqPr2hkpz8w%3D%3D&user%5Bemail%5D=test%40test.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:20:22 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"US4TuE+QiGj5f0rvP8y2gejZOjcR5oOO3TiTO7aZfLQXL7lVr3NYBpk+m0rFJIJjnSfG+CjKSbGRqPr2hkpz8w==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (20.8ms)
+  Rendered partials/_navbar.haml (10.0ms)
+  Rendered partials/_footer.haml (14.1ms)
+Completed 200 OK in 117ms (Views: 114.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=ps5wyHcAWZK%2BeZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll%2BOJ%2FN44Qc%2FXJ0YDsl0nBjZfCrJ0yCuoQRlRjA%3D%3D&user%5Bemail%5D=test2%40test2.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:20:51 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ps5wyHcAWZK+eZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll+OJ/N44Qc/XJ0YDsl0nBjZfCrJ0yCuoQRlRjA==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (18.7ms)
+  Rendered partials/_navbar.haml (12.0ms)
+  Rendered partials/_footer.haml (12.4ms)
+Completed 200 OK in 105ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=ps5wyHcAWZK%2BeZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll%2BOJ%2FN44Qc%2FXJ0YDsl0nBjZfCrJ0yCuoQRlRjA%3D%3D&user%5Bemail%5D=test2%40test2.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:23:31 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ps5wyHcAWZK+eZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll+OJ/N44Qc/XJ0YDsl0nBjZfCrJ0yCuoQRlRjA==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/g3r420/Github/Donsgram/app/views/devise/registrations/new.html.haml:26: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/home/g3r420/Github/Donsgram/app/views/devise/registrations/new.html.haml:44: syntax error, unexpected keyword_ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/g3r420/Github/Donsgram/app/views/devise/registrations/new.html.haml:44: syntax error, unexpected keyword_end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/g3r420/Github/Donsgram/app/views/devise/registrations/new.html.haml:47: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/devise/registrations/new.html.haml:26: syntax error, unexpected ')'
+app/views/devise/registrations/new.html.haml:44: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devise/registrations/new.html.haml:44: syntax error, unexpected keyword_end, expecting ')'
+app/views/devise/registrations/new.html.haml:47: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=ps5wyHcAWZK%2BeZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll%2BOJ%2FN44Qc%2FXJ0YDsl0nBjZfCrJ0yCuoQRlRjA%3D%3D&user%5Bemail%5D=test2%40test2.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:23:49 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ps5wyHcAWZK+eZBqLc9y4cej28kPc8CNOFhCZXHKXsvgz9oll+OJ/N44Qc/XJ0YDsl0nBjZfCrJ0yCuoQRlRjA==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (18.1ms)
+  Rendered partials/_navbar.haml (7.8ms)
+  Rendered partials/_footer.haml (7.8ms)
+Completed 200 OK in 94ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=ahG4AplKso5%2BIgrI2CcUULYzGmIpCXl%2BsNiF3XbNX2osEBLveali4B5j220izyCyw83mrRAls0H8SOwQRh5QLQ%3D%3D&user%5Bemail%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:23:52 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ahG4AplKso5+IgrI2CcUULYzGmIpCXl+sNiF3XbNX2osEBLveali4B5j220izyCyw83mrRAls0H8SOwQRh5QLQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (16.2ms)
+  Rendered partials/_navbar.haml (14.9ms)
+  Rendered partials/_footer.haml (7.3ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=%2BbfpjHs4QD7Csz%2FalC2U4aw1YjGnXMRR1u784mtkvIa%2FtkNhm9uQUKLy7n9uxaAD2cue%2Fp5wDm6afpUvW7ezwQ%3D%3D&user%5Bemail%5D=test2%40test2.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:24:06 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+bfpjHs4QD7Csz/alC2U4aw1YjGnXMRR1u784mtkvIa/tkNhm9uQUKLy7n9uxaAD2cue/p5wDm6afpUvW7ezwQ==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (15.5ms)
+  Rendered partials/_navbar.haml (6.9ms)
+  Rendered partials/_footer.haml (6.9ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?utf8=%E2%9C%93&authenticity_token=tAWyYoO793FYjhF5EB%2B3uvLf0Wy6RRnGUaPJ8zXHifnyBBiPY1gnHzjPwNzq94NYhyEto4Np0%2FkdM6A%2BBRSGvg%3D%3D&user%5Bemail%5D=test3%40test3.com&user%5Bpassword%5D=[FILTERED]&user%5Bpassword_confirmation%5D=[FILTERED]&commit=Sign+up" for 127.0.0.1 at 2018-11-02 17:24:31 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tAWyYoO793FYjhF5EB+3uvLf0Wy6RRnGUaPJ8zXHifnyBBiPY1gnHzjPwNzq94NYhyEto4Np0/kdM6A+BRSGvg==", "user"=>{"email"=>"test3@test3.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (16.4ms)
+  Rendered partials/_navbar.haml (15.2ms)
+  Rendered partials/_footer.haml (7.4ms)
+Completed 200 OK in 96ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:24:37 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.haml within layouts/application (16.6ms)
+  Rendered partials/_navbar.haml (6.7ms)
+  Rendered partials/_footer.haml (8.2ms)
+Completed 200 OK in 105ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:24:45 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BAvh2FI19eYkUunWZ88/Cte7hNfM5DxqPIgIRWFvWo/rZDaAbeyZ5QHZyE2wHSlBikw8qEj+4zbtgHohSCJuTg==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 25ms (ActiveRecord: 3.7ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BAvh2FI19eYkUunWZ88/Cte7hNfM5DxqPIgIRWFvWo/rZDaAbeyZ5QHZyE2wHSlBikw8qEj+4zbtgHohSCJuTg==", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.haml within layouts/application (13.9ms)
+  Rendered partials/_navbar.haml (15.1ms)
+  Rendered partials/_footer.haml (7.2ms)
+Completed 200 OK in 314ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:24:59 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/ZNblWpVLLua0e8JSDjsqkI1ljZFk/AUSJDlRAzWRb+7kvF4irb81fqQPqyy0NhIN8tq+Xy/OisEAIyJPAVK+A==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test2@test2.com"], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/ZNblWpVLLua0e8JSDjsqkI1ljZFk/AUSJDlRAzWRb+7kvF4irb81fqQPqyy0NhIN8tq+Xy/OisEAIyJPAVK+A==", "user"=>{"email"=>"test2@test2.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.haml within layouts/application (12.8ms)
+  Rendered partials/_navbar.haml (6.5ms)
+  Rendered partials/_footer.haml (9.8ms)
+Completed 200 OK in 272ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:25:04 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (24.6ms)
+  Rendered partials/_navbar.haml (7.2ms)
+  Rendered partials/_footer.haml (8.0ms)
+Completed 200 OK in 99ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:25:21 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/registrations/new.html.haml within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %p and nested within it.):
+    21:       .mx-auto.col-lg-6.col-10
+    22:         %h1 Registra tus datos
+    23:         %p.mb-3 Pronto podras...
+    24:           = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+    25:             = devise_error_messages!
+    26:             %div
+    27:               = f.label :email
+  
+app/views/devise/registrations/new.html.haml:24
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:25:57 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (15.2ms)
+  Rendered partials/_navbar.haml (7.0ms)
+  Rendered partials/_footer.haml (7.0ms)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-02 17:26:19 -0600
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j9U/vtIrO1it1rRSz2KDCxaD35IxDJVHsLcVtEvfPWbJ1JVTMsjrNs2XZfc1irfpY30jXQggX3j8J3x5ewwyIQ==", "user"=>{"email"=>"test4@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test4@test.com"], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (19.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test4@test.com"], ["encrypted_password", "$2a$11$yhn4KOKfYcXEscOprD81zODm3fD41Mbdeyl6Kl44CYBSlr4B.o0jq"], ["created_at", "2018-11-02 23:26:20.088302"], ["updated_at", "2018-11-02 23:26:20.088302"]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (76.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-11-02 23:26:20.187624"], ["last_sign_in_at", "2018-11-02 23:26:20.187624"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2018-11-02 23:26:20.188666"], ["id", 5]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (71.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 395ms (ActiveRecord: 167.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 17:26:20 -0600
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by MainController#home as HTML
+  Rendering main/home.haml within layouts/application
+  Rendered main/home.haml within layouts/application (1.9ms)
+  Rendered partials/_navbar.haml (6.2ms)
+  Rendered partials/_footer.haml (6.8ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:26:23 -0600
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://0.0.0.0:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 17:26:23 -0600
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by MainController#home as HTML
+  Rendering main/home.haml within layouts/application
+  Rendered main/home.haml within layouts/application (2.4ms)
+  Rendered partials/_navbar.haml (6.6ms)
+  Rendered partials/_footer.haml (7.0ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-11-02 17:26:24 -0600
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://0.0.0.0:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 17:26:24 -0600
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by MainController#home as HTML
+  Rendering main/home.haml within layouts/application
+  Rendered main/home.haml within layouts/application (4.5ms)
+  Rendered partials/_navbar.haml (9.3ms)
+  Rendered partials/_footer.haml (7.4ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-11-02 17:26:24 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Redirected to http://0.0.0.0:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-02 17:26:24 -0600
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ /home/g3r420/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by MainController#home as HTML
+  Rendering main/home.haml within layouts/application
+  Rendered main/home.haml within layouts/application (3.1ms)
+  Rendered partials/_navbar.haml (6.4ms)
+  Rendered partials/_footer.haml (6.8ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2018-11-02 17:26:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
